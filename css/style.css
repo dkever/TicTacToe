@@ -1,0 +1,78 @@
+body {
+  background-image: url("../images/chalkboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+header {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+img.header {
+    display: block;
+    margin: 0 auto;
+}
+footer {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  left: 0;
+  width: 100%;
+  height: 1em;
+  text-align: center;
+}
+button {
+  margin: 80px auto -10px auto;
+}
+h2 {
+  margin-bottom: 50px;
+}
+#playerOne {
+  float: left;
+  margin-left: 3em;
+}
+#playerTwo {
+  float: right;
+  margin-right: 3em;
+}
+.playerName {
+  width: 8em;
+}
+#box {
+  font-color: rgba(232, 232, 230, 0.9);
+  text-align:left;
+  width:auto;
+  height:auto;
+}
+.square {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  background-image: url("../images/chalkboard.jpg");
+  background-position: center center;
+  opacity: .7;
+  white-space: nowrap;
+}
+.v {
+  border-left: 30px solid rgba(232, 232, 230, 0.9);
+  border-right: 30px solid rgba(232, 232, 230, 0.9);
+}
+.h {
+  border-top: 30px solid rgba(232, 232, 230, 0.9);
+  border-bottom: 30px solid rgba(232, 232, 230, 0.9);
+}
+.table-responsive {
+  width: 98%;
+  margin: 0 auto;
+}
+.link {
+  padding-right: 10px;
+  padding-left: 10px;
+}
